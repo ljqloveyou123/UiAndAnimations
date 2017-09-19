@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="custom_rect_colors">
+        <item>@color/custom_rect_colors_1</item>
+        <item>@color/custom_rect_colors_2</item>
+        <item>@color/custom_rect_colors_3</item>
+        <item>@color/custom_rect_colors_4</item>
+        <item>@color/custom_rect_colors_5</item>
+        <item>@color/custom_rect_colors_6</item>
+        <item>@color/custom_rect_colors_7</item>
+        <item>@color/custom_rect_colors_8</item>
+        <item>@color/custom_rect_colors_9</item>
+        <item>@color/custom_rect_colors_10</item>
+        <item>@color/custom_rect_colors_11</item>
+        <item>@color/custom_rect_colors_12</item>
+        <item>@color/custom_rect_colors_13</item>
+        <item>@color/custom_rect_colors_14</item>
+        <item>@color/custom_rect_colors_15</item>
+        <item>@color/custom_rect_colors_16</item>
+        <item>@color/custom_rect_colors_17</item>
+        <item>@color/custom_rect_colors_18</item>
+        <item>@color/custom_rect_colors_19</item>
+        <item>@color/custom_rect_colors_20</item>
+    </integer-array>
+</resources>

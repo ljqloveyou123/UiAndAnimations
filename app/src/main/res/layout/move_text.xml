@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_move_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="精选"
+        android:layout_margin="6dp"
+        android:background="@drawable/move_top_bg"
+        android:gravity="center"
+        android:textColor="#fff"
+        />
+
+    <ImageView
+        android:id="@+id/tv_move_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/move_edit_ic"
+        android:layout_gravity="end"
+        />
+
+</FrameLayout>

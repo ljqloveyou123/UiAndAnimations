@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.huanju.ui.MainActivity">
+
+        <com.ljq.ui.konck.KnockLoadingView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/zhonbgai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:globeColor="@color/colorAccent"
+            app:globeNum="4"
+            app:globeRadius="7dp"
+            app:swingRadius="60dp" />
+
+
+        <com.ljq.ui.rect_loading.RectLoadingView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:rect_color="@color/colo_rect"
+            app:rect_size="20dp"
+            app:rect_space="6dp" />
+
+        <com.ljq.ui.greedy_snake.GreedySnakeCustomView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/greedy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:rect_size_="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:onClick="click_stop"
+            android:text="停止动画" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="click_start"
+            android:text="开始动画" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="click_refresh"
+            android:text="下拉刷新" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:onClick="click_item_tag_move"
+            android:text="标签移动排序" />
+
+    </LinearLayout>
+</ScrollView>

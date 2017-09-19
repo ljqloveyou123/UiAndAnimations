@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--钟摆进度条view-->
+    <declare-styleable name="KnockLoadingView">
+        <!--小球个数-->
+        <attr name="globeNum" format="integer" />
+        <!--小球颜色-->
+        <attr name="globeColor" format="color" />
+        <!--圆球半径-->
+        <attr name="globeRadius" format="dimension" />
+        <!--钟摆半径-->
+        <attr name="swingRadius" format="dimension" />
+    </declare-styleable>
+
+
+    <!--方块移动loadingview-->
+    <declare-styleable name="RectLoadingView">
+        <!--//方块直接间接-->
+        <attr name="rect_space" format="dimension"/>
+        <!--方块大小-->
+        <attr name="rect_size" format="dimension"/>
+        <!--颜色-->
+        <attr name="rect_color" format="color"/>
+    </declare-styleable>
+    
+    <declare-styleable name="GreedySnakeCustomView">
+        <!--渐变颜色数组-->
+        <attr name="colors" format="reference"/>
+        <attr name="rect_size_" format="dimension"/>
+    </declare-styleable>
+    
+</resources>

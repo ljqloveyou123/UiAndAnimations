@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colo1">#FF5607</color>
+    <color name="colo2">#3C89FF</color>
+    <color name="colo3">#FDD700</color>
+    <color name="colo4">#0CB5A3</color>
+    <color name="colo_rect">#619820</color>
+
+
+    <color name="custom_rect_colors_1">#ffffff</color>
+    <color name="custom_rect_colors_2">#ffffff</color>
+    <color name="custom_rect_colors_3">#E7F6E1</color>
+    <color name="custom_rect_colors_4">#DAF0CE</color>
+    <color name="custom_rect_colors_5">#C8EFB4</color>
+    <color name="custom_rect_colors_6">#B8E8A0</color>
+    <color name="custom_rect_colors_7">#A8DF8D</color>
+    <color name="custom_rect_colors_8">#9BD67C</color>
+    <color name="custom_rect_colors_9">#8ACB68</color>
+    <color name="custom_rect_colors_10">#7CBF5A</color>
+    <color name="custom_rect_colors_11">#70B54E</color>
+    <color name="custom_rect_colors_12">#64A842</color>
+    <color name="custom_rect_colors_13">#5C9F3B</color>
+    <color name="custom_rect_colors_14">#539234</color>
+    <color name="custom_rect_colors_15">#4C882E</color>
+    <color name="custom_rect_colors_16">#47802A</color>
+    <color name="custom_rect_colors_17">#417626</color>
+    <color name="custom_rect_colors_18">#34601D</color>
+    <color name="custom_rect_colors_19">#294D17</color>
+    <color name="custom_rect_colors_20">#224013</color>
+
+
+</resources>
